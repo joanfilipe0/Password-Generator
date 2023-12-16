@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas Online Grátis</title>
+    <meta name="description" content="Gere senhas seguras com nosso gerador de senhas online gratuito. Todo processamento é feito localmente para máxima segurança.">
+    <meta name="keywords" content="Gerador de Senhas, Senha Segura, Grátis, Online, Processamento Local">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="options-container">
+            <h1>Gerador de Senhas</h1>
+            <p>Gere senhas seguras com nossa ferramenta online gratuita. </p> 
+            <p>Todo o processamento é feito localmente em seu dispositivo </p>
+            <p>Garantindo máxima segurança.</p>
+            <h3>Opções de Senha</h3>
+            <div>
+                <input type="checkbox" id="include-special" checked>
+                <label for="include-special">Incluir caracteres especiais</label>
+            </div>
+            <div>
+                <input type="checkbox" id="include-numbers" checked>
+                <label for="include-numbers">Incluir números</label>
+            </div>
+            <div>
+                <input type="checkbox" id="include-uppercase" checked>
+                <label for="include-uppercase">Incluir letras maiúsculas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="include-lowercase" checked>
+                <label for="include-lowercase">Incluir letras minúsculas</label>
+            </div>
+        </div>
+        <div class="password-length-container">
+            <label for="password-length" class="password-length-label">Comprimento da Senha:</label>
+            <input type="number" id="password-length" min="4" max="100" value="12">
+        </div>
+        <label id="password-label" for="password">Clique no botão 'Gerar Senha'</label><br>
+        <input type="password" id="password" readonly>
+        <button id="viewPassword" type="button" onclick="viewPassword()" disabled>Visualizar Senha</button>
+        <div id="buttons">
+            <button onclick="generatePassword()">Gerar Senha</button>
+            <button id="copyButton" onclick="copyToClipboard()" disabled>Copiar Senha</button>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+</body>
+
+</html>
