@@ -1,5 +1,7 @@
 # Gerador de Senha Online Grátis
 
+![preview](./.github/generator.png)
+
 Este é um simples gerador de senhas online que permite a criação rápida e segura de senhas robustas. Destacamos algumas características principais deste gerador de senha:
 
 # Características:
