@@ -20,22 +20,22 @@ Os testes estão organizados em cenários específicos para garantir uma cobertu
 
 ### Verificar Senhas Geradas
 
-1. **Senhas Contêm Caracteres Especiais:**
+1. **Senhas Contém Caracteres Especiais:**
    - Desmarca todos os checkboxes.
    - Gera uma senha com caracteres especiais marcados.
    - Verifica se a senha contém apenas caracteres especiais.
 
-2. **Senhas Contêm Números:**
+2. **Senhas Contém Números:**
    - Desmarca todos os checkboxes.
    - Gera uma senha com números marcados.
    - Verifica se a senha contém apenas números.
 
-3. **Senhas Contêm Letras Maiúsculas:**
+3. **Senhas Contém Letras Maiúsculas:**
    - Desmarca todos os checkboxes.
    - Gera uma senha com letras maiúsculas marcadas.
    - Verifica se a senha contém apenas letras maiúsculas.
 
-4. **Senhas Contêm Letras Minúsculas:**
+4. **Senhas Contém Letras Minúsculas:**
    - Desmarca todos os checkboxes.
    - Gera uma senha com letras minúsculas marcadas.
    - Verifica se a senha contém apenas letras minúsculas.
