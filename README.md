@@ -11,6 +11,43 @@ Segurança Máxima: Todo o processamento é realizado localmente em seu disposit
 
 Opções Personalizáveis: Personalize suas senhas conforme suas necessidades. Escolha incluir caracteres especiais, números, letras maiúsculas e minúsculas, de acordo com as exigências de segurança desejadas.
 
+# Automação de Testes:
+Este projeto utiliza testes automatizados para garantir a funcionalidade correta do Gerador de Senhas. Os testes são escritos usando o framework de teste Cypress.
+
+## Estrutura dos Testes
+
+Os testes estão organizados em cenários específicos para garantir uma cobertura abrangente do Gerador de Senhas.
+
+### Verificar Senhas Geradas
+
+1. **Senhas Contêm Caracteres Especiais:**
+   - Desmarca todos os checkboxes.
+   - Gera uma senha com caracteres especiais marcados.
+   - Verifica se a senha contém apenas caracteres especiais.
+
+2. **Senhas Contêm Números:**
+   - Desmarca todos os checkboxes.
+   - Gera uma senha com números marcados.
+   - Verifica se a senha contém apenas números.
+
+3. **Senhas Contêm Letras Maiúsculas:**
+   - Desmarca todos os checkboxes.
+   - Gera uma senha com letras maiúsculas marcadas.
+   - Verifica se a senha contém apenas letras maiúsculas.
+
+4. **Senhas Contêm Letras Minúsculas:**
+   - Desmarca todos os checkboxes.
+   - Gera uma senha com letras minúsculas marcadas.
+   - Verifica se a senha contém apenas letras minúsculas.
+
+### Verificar Tamanho da Senha
+
+5. **Tamanho da Senha Gerada:**
+   - Define um comprimento de senha específico.
+   - Desmarca todos os checkboxes.
+   - Gera uma senha.
+   - Verifica se o tamanho da senha é igual ao comprimento especificado.
+
 # Como Usar:
 
 Opções de Senha:
